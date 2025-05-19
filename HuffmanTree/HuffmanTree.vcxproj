@@ -132,9 +132,11 @@
     <ClInclude Include="node.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="huffman_decoder.cpp" />
     <ClCompile Include="frequency_cal.cpp" />
     <ClCompile Include="huffman.cpp" />
     <ClCompile Include="huffman_generator.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="node.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

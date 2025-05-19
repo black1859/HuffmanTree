@@ -13,8 +13,3 @@ Node::~Node()
 	if (left) delete left;
 	if (right) delete right;
 }
-
-bool Node::is_leaf()
-{
-	return value != NOT_LEAF;
-}
